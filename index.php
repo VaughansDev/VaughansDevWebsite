@@ -8,8 +8,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
-      <link rel="stylesheet" href="scribbler-global.css">
-      <link rel="stylesheet" href="scribbler-landing.css">
+      <link rel="stylesheet" href="/assets/css/scribbler-global.css">
+      <link rel="stylesheet" href="/assets/css/scribbler-landing.css">
       <link rel="author" href="humans.txt">
   </head>
   <body>
@@ -17,7 +17,7 @@
       <div class="logo"></div>
       <ul class="menu">
         <div class="menu__item toggle"><span></span></div>
-        <li class="menu__item"><a href="doc.html" class="link link--dark"><i class="fa fa-book"></i> Documentation</a></li>
+        <li class="menu__item"><a href="doc.php" class="link link--dark"><i class="fa fa-book"></i> Documentation</a></li>
         <li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
       </ul>
     </nav>
@@ -91,7 +91,7 @@
       </div>
       <div class="callout">
         <p>Read our documentation for advanced keybindings and customization</p>
-        <a href="doc.html" class="button--primary">Documentation</a>
+        <a href="doc.php" class="button--primary">Documentation</a>
       </div>
     </div>
     <div class="changelog">
@@ -144,6 +144,6 @@
     <footer class="footer">Scribbler is a free HTML template created exclusively for <a href="https://tympanus.net/codrops/" target="_blank" class="link link--light">Codrops</a>.</footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="scribbler.js"></script>
+    <script src="/assets/js/scribbler.js"></script>
   </body>
 </html>

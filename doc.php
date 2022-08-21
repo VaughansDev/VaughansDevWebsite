@@ -7,8 +7,8 @@
     <title>Scribbler Documentation - a code documentation page template for codrops</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="scribbler-global.css">
-    <link rel="stylesheet" href="scribbler-doc.css">
+    <link rel="stylesheet" href="/assets/css/scribbler-global.css">
+    <link rel="stylesheet" href="/assets/css/scribbler-doc.css">
     <link rel="author" href="humans.txt">
   </head>
   <body>
@@ -18,7 +18,7 @@
       <ul class="menu">
         <div class="menu__item toggle"><span></span></div>
         <li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
-        <li class="menu__item"><a href="index.html" class="link link--dark"><i class="fa fa-home"></i> Home</a></li>
+        <li class="menu__item"><a href="index.php" class="link link--dark"><i class="fa fa-home"></i> Home</a></li>
       </ul>
     </nav>
     <div class="wrapper">
@@ -40,7 +40,7 @@
               <code>
                 $ scribbler  ——config
                   {
-                    “encryption”: true, 
+                    “encryption”: true,
                     “highlighting“: true,
                     “prettyTable”: false,
                     “font”: [“Helvetica”, “sans-serif”],
@@ -96,6 +96,6 @@
     <footer class="footer">Scribbler is a free HTML template created exclusively for <a href="https://tympanus.net/codrops/" target="_blank" class="link link--light">Codrops</a>.</footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="scribbler.js"></script>
+    <script src="/assets/js/scribbler.js"></script>
   </body>
 </html>
