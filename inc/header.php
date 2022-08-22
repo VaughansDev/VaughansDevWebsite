@@ -26,6 +26,9 @@
         case "/docs/vd-drugs.php":?>
           <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
           <?php break;
+        case "/docs/vd-moneylaundering.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
+          <?php break;
         case "/docs/vd-barjob.php":?>
           <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
           <?php break;
@@ -42,6 +45,21 @@
           <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
           <?php break;
         case "/products/vd-drugs.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
+          <?php break;
+        case "/products/vd-moneylaundering.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
+          <?php break;
+        case "/products/vd-barjob.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
+          <?php break;
+        case "/products/vd-coffeeshopjob.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
+          <?php break;
+        case "/products/vd-restaurantjob.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
+          <?php break;
+        case "/products/vd-fastfoodjob.php":?>
           <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
           <?php break;
       }

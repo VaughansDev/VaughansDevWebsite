@@ -16,6 +16,7 @@ if (document.getElementsByClassName('home').length > 0) {
 
           Products:
             - VD-Drugs [QB] ~ $25 USD
+            - VD-MoneyLaundering [QB] ~ $15 USD
             - *WIP* VD-BarJob [QB] (Coming Soon)
             - *WIP* VD-CoffeeShopJob [QB] (Coming Soon)
             - *WIP* VD-RestaurantJob [QB] (Coming Soon)
@@ -59,6 +60,33 @@ if (document.getElementsByClassName('vd-drugs').length > 0) {
   function typeItOut () {
     if (i < txt.length) {
       document.getElementsByClassName('vd-drugs')[0].innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeItOut, speed);
+    }
+  }
+
+  setTimeout(typeItOut, 1800);
+}
+
+if (document.getElementsByClassName('vd-moneylaundering').length > 0) {
+  var i = 0;
+  var txt = `VD-MoneyLaundering
+
+          Price:
+            ~ $15 USD
+
+          Features:
+            ~ Adds laundromat locations
+            ~ takes marked bills and cleans them with an interactive process
+
+          Dependencies:
+            ~ QB-Core
+            ~ Interact-Sound`;
+  var speed = 10;
+
+  function typeItOut () {
+    if (i < txt.length) {
+      document.getElementsByClassName('vd-moneylaundering')[0].innerHTML += txt.charAt(i);
       i++;
       setTimeout(typeItOut, speed);
     }

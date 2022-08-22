@@ -6,6 +6,7 @@
         <ul>
           <a href="index.php"><li class="selected">Get Started</li></a>
           <a href="vd-drugs.php"><li class="">VD-Drugs</li></a>
+          <a href="vd-moneylaundering.php"><li class="">VD-MoneyLaundering</li></a>
           <a href="vd-barjob.php"><li class="">VD-BarJob</li></a>
           <a href="vd-coffeeshopjob.php"><li class="">VD-CoffeeShopJob</li></a>
           <a href="vd-restaurantjob.php"><li class="">VD-RestaurantJob</li></a>

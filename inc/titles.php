@@ -9,6 +9,9 @@ switch ($_SERVER['PHP_SELF']) {
   case "/docs/vd-drugs.php":
     $page = 'Docs | VD-Drugs';
     break;
+  case "/docs/vd-moneylaundering.php":
+    $page = 'Docs | VD-MoneyLaundering';
+    break;
   case "/docs/vd-BarJob.php":
     $page = 'Docs | VD-BarJob';
     break;
@@ -26,6 +29,9 @@ switch ($_SERVER['PHP_SELF']) {
     break;
   case "/products/vd-drugs.php":
     $page = 'Products | VD-Drugs';
+    break;
+  case "/products/vd-moneylaundering.php":
+    $page = 'Products | VD-MoneyLaundering';
     break;
   case "/products/vd-BarJob.php":
     $page = 'Products | VD-BarJob';
