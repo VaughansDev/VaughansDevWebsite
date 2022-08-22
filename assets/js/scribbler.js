@@ -10,17 +10,54 @@ var getAll = function (selector, scope) {
 };
 
 // setup typewriter effect in the terminal demo
-if (document.getElementsByClassName('demo').length > 0) {
+if (document.getElementsByClassName('home').length > 0) {
   var i = 0;
   var txt = `Creating FiveM Scripts & Addons
 
           Products:
-            - VD-Drugs`;
-  var speed = 60;
+            - VD-Drugs [QB] ~ $25 USD
+            - *WIP* VD-TequilalaJob [QB] (Coming Soon)
+            - *WIP* VD-CoffeeShopJob [QB] (Coming Soon)
+            - *WIP* VD-LaLinternas [QB] (Coming Soon)`;
+  var speed = 10;
 
   function typeItOut () {
     if (i < txt.length) {
-      document.getElementsByClassName('demo')[0].innerHTML += txt.charAt(i);
+      document.getElementsByClassName('home')[0].innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeItOut, speed);
+    }
+  }
+
+  setTimeout(typeItOut, 1800);
+}
+
+if (document.getElementsByClassName('vd-drugs').length > 0) {
+  var i = 0;
+  var txt = `VD-Drugs
+
+          Price:
+            ~ $25 USD
+
+          Features:
+            ~ Meth Production
+            ~ Cocaine Production
+            ~ Weed Production
+            ~ Counterfeit Cash Production
+            ~ Corner Holding (Dealing)
+
+          Dependencies:
+            ~ bob74_ipl
+            ~ QB-Core
+            ~ QB-Inventory
+
+          Optional:
+            ~ QB-Drugs`;
+  var speed = 10;
+
+  function typeItOut () {
+    if (i < txt.length) {
+      document.getElementsByClassName('vd-drugs')[0].innerHTML += txt.charAt(i);
       i++;
       setTimeout(typeItOut, speed);
     }

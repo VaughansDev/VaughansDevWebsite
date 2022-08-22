@@ -17,17 +17,29 @@
       <link rel="stylesheet" href="../assets/css/scribbler-global.css">
       <?php
       switch ($_SERVER['PHP_SELF']) {
-        case "/index.php":?>
+        case "/home.php":?>
           <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
           <?php break;
-        case "/docs/index.php":?>
-          <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
-          <?php break;
-        case "/docs/setup.php":?>
+        case "/docs/getting-started.php":?>
           <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
           <?php break;
         case "/docs/vd-drugs.php":?>
           <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
+          <?php break;
+        case "/docs/vd-tequilalajob.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
+          <?php break;
+        case "/docs/vd-coffeeshopjob.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
+          <?php break;
+        case "/docs/vd-lalinternas.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
+          <?php break;
+        case "/products/products.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
+          <?php break;
+        case "/products/vd-drugs.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
           <?php break;
       }
       ?>

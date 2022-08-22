@@ -5,16 +5,16 @@
       <aside class="doc__nav">
         <ul>
           <a href="index.php"><li class="">Get Started</li></a>
-          <a href="vd-drugs.php"><li class="selected">VD-Drugs</li></a>
+          <a href="vd-drugs.php"><li class="">VD-Drugs</li></a>
           <a href="vd-tequilalajob.php"><li class="">VD-TequilalaJob</li></a>
-          <a href="vd-coffeeshopjob.php"><li class="">VD-CoffeeShopJob</li></a>
+          <a href="vd-coffeeshopjob.php"><li class="selected">VD-CoffeeShopJob</li></a>
           <a href="vd-lalinternas.php"><li class="">VD-LaLinternas</li></a>
         </ul>
       </aside>
       <article class="doc__content">
         <section class="js-section">
-          <h3 class="section__title">Get Started</h3>
-          <p>Learn how to configure settings for Scribbler, such as your syntax highlighting preference and the default saving folder location.</p>
+          <h3 class="section__title">Coming Soon</h3>
+          <!--<p>Learn how to configure settings for Scribbler, such as your syntax highlighting preference and the default saving folder location.</p>
           <h3 class="section__title">Installation</h3>
           <div class="code__block code__block--notabs">
             <pre class="code code--block">
@@ -29,8 +29,8 @@
                   }
               </code>
             </pre>
-          </div>
-        </section>
+          </div>-->
+        </section><!--
         <section class="js-section">
           <h3 class="section__title">Configuration</h3>
           <p>Learn how to configure settings for Scribbler, such as your syntax highlighting preference and the default saving folder location.</p>
@@ -70,7 +70,7 @@
           <h3 class="section__title">Issues</h3>
           <p>Lorem ipsum dolor sit amet, scripta tibique indoctum sit ei, mel inani aeterno ad. Facer oratio ex per. At eam movet verear, in sea brute patrioque disputando, usu nonumes torquatos an. Ex his quaerendum intellegebat, ut vel homero accusam. Eum at debet tibique, in vocibus temporibus adversarium sed. Porro verear eu vix, ne usu tation vituperata.</p>
           <p>Malis percipitur an pro. Pro aperiam persequeris at, at sonet sensibus mei, id mea postulant definiebas concludaturque. Id qui malis abhorreant, mazim melius quo et. At eam altera dolorum, case dicant lobortis ius te, ad vel affert oportere reprehendunt. Quo no verterem deseruisse, mea brute postea te, ne per tacimates suavitate vituperatoribus.</p>
-        </section>
+        </section>-->
       </article>
     </div>
 <?php
