@@ -1,6 +1,6 @@
 <?php
-  require 'header.php';
-  require 'nav.php';
+  require 'inc/header.php';
+  require 'inc/nav.php';
 ?>
     <div class="wrapper">
       <aside class="doc__nav">
@@ -74,5 +74,5 @@
       </article>
     </div>
 <?php
-  require 'footer.php';
+  require 'inc/footer.php';
 ?>

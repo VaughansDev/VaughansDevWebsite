@@ -1,6 +1,6 @@
 <?php
-  require 'header.php';
-  require 'nav.php';
+  require 'inc/header.php';
+  require 'inc/nav.php';
 ?>
     <div class="hero">
       <h1 class="hero__title"><?php echo $site; ?></h1>
@@ -123,5 +123,5 @@
       </div>
     </div>
 <?php
-  require 'footer.php';
+  require 'inc/footer.php';
 ?>
