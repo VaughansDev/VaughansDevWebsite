@@ -3,7 +3,7 @@
   require 'nav.php';
 ?>
     <div class="hero">
-      <h1 class="hero__title">Scribbler</h1>
+      <h1 class="hero__title"><?php echo $site; ?></h1>
       <p class="hero__description">Take your markdown notes in terminal</p>
     </div>
     <div class="hero__terminal">
