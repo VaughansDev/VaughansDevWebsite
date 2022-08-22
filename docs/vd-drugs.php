@@ -14,62 +14,37 @@
       <article class="doc__content">
         <section class="js-section">
           <h3 class="section__title">Get Started</h3>
-          <p>Learn how to configure settings for Scribbler, such as your syntax highlighting preference and the default saving folder location.</p>
+          <h4>Download</h4>
+            <p>VD-Drugs - <a href="https://keymaster.fivem.net/" target="_blank">https://keymaster.fivem.net</a> (login to the account you used to checkout on Tebex, Once logged in click on Granted Assets, Find VD-Drugs and click Download)<br />
+            bob74_ipl - <a href="https://github.com/qbcore-framework/bob74_ipl" target="_blank">https://github.com/qbcore-framework/bob74_ipl</a><br />
+            QB-Core - <a href="https://github.com/qbcore-framework/qb-core" target="_blank">https://github.com/qbcore-framework/qb-core</a><br />
+            QB-Inventory - <a href="https://github.com/qbcore-framework/qb-inventory" target="_blank">https://github.com/qbcore-framework/qb-inventory</a></p>
+        </section>
+        <section class="js-section">
           <h3 class="section__title">Installation</h3>
+          <p>After downloading all the files above, extract them into your FiveM servers resources folder</p>
+          <img src="../assets/imgs/docs/vd-drugs-resource-folder.png">
+          <p>Your resources folder should look similar to the one above (you may have more scripts installed and your folder may look different, as long as these folder are in there you should be fine)</p>
+        </section>
+        <section class="js-section">
+          <h3 class="section__title">Edit server.cfg file</h3>
           <div class="code__block code__block--notabs">
+            <p>Required Lines</p>
             <pre class="code code--block">
               <code>
-                $ scribbler  ——config
-                  {
-                    “encryption”: true,
-                    “highlighting“: true,
-                    “prettyTable”: false,
-                    “font”: [“Helvetica”, “sans-serif”],
-                    “folder”: “~/Desktop“
-                  }
+                ensure bob74_ipl
+                ensure qb-core
+                ensure qb-inventory
+                ensure vd-drugs
+              </code>
+            </pre>
+            <p>Optional Lines</p>
+            <pre class="code code--block">
+              <code>
+                ensure qb-drugs
               </code>
             </pre>
           </div>
-        </section>
-        <section class="js-section">
-          <h3 class="section__title">Configuration</h3>
-          <p>Learn how to configure settings for Scribbler, such as your syntax highlighting preference and the default saving folder location.</p>
-          <table id="customers">
-            <tr>
-              <th>Options</th>
-              <th>Value</th>
-              <th>Default</th>
-            </tr>
-            <tr>
-              <td>encryption</td>
-              <td>encrypt all notes before saving. If turned on, it requires password to open the file.</td>
-              <td>false</td>
-            </tr>
-            <tr>
-              <td>highlighting</td>
-              <td>Show syntax highlight on markdown text.</td>
-              <td>true</td>
-            </tr>
-            <tr>
-              <td>prettyTable</td>
-              <td>Render table with Scribbler’s pretty table style.</td>
-              <td>true</td>
-            </tr>
-          </table>
-          <p>Malis percipitur an pro. Pro aperiam persequeris at, at sonet sensibus mei, id mea postulant definiebas concludaturque. Id qui malis abhorreant, mazim melius quo et. At eam altera dolorum, case dicant lobortis ius te, ad vel affert oportere reprehendunt. Quo no verterem deseruisse, mea brute postea te, ne per tacimates suavitate vituperatoribus.</p>
-          <hr />
-        </section>
-        <section class="js-section">
-          <h3 class="section__title">Keybindings</h3>
-          <p>Lorem ipsum dolor sit amet, scripta tibique indoctum sit ei, mel inani aeterno ad. Facer oratio ex per. At eam movet verear, in sea brute patrioque disputando, usu nonumes torquatos an. Ex his quaerendum intellegebat, ut vel homero accusam. Eum at debet tibique, in vocibus temporibus adversarium sed. Porro verear eu vix, ne usu tation vituperata.</p>
-          <p>Malis percipitur an pro. Pro aperiam persequeris at, at sonet sensibus mei, id mea postulant definiebas concludaturque. Id qui malis abhorreant, mazim melius quo et. At eam altera dolorum, case dicant lobortis ius te, ad vel affert oportere reprehendunt. Quo no verterem deseruisse, mea brute postea te, ne per tacimates suavitate vituperatoribus.</p>
-          <p>Malis percipitur an pro. Pro aperiam persequeris at, at sonet sensibus mei, id mea postulant definiebas concludaturque. Id qui malis abhorreant, mazim melius quo et. At eam altera dolorum, case dicant lobortis ius te, ad vel affert oportere reprehendunt. Quo no verterem deseruisse, mea brute postea te, ne per tacimates suavitate vituperatoribus.</p>
-          <hr />
-        </section>
-        <section class="js-section">
-          <h3 class="section__title">Issues</h3>
-          <p>Lorem ipsum dolor sit amet, scripta tibique indoctum sit ei, mel inani aeterno ad. Facer oratio ex per. At eam movet verear, in sea brute patrioque disputando, usu nonumes torquatos an. Ex his quaerendum intellegebat, ut vel homero accusam. Eum at debet tibique, in vocibus temporibus adversarium sed. Porro verear eu vix, ne usu tation vituperata.</p>
-          <p>Malis percipitur an pro. Pro aperiam persequeris at, at sonet sensibus mei, id mea postulant definiebas concludaturque. Id qui malis abhorreant, mazim melius quo et. At eam altera dolorum, case dicant lobortis ius te, ad vel affert oportere reprehendunt. Quo no verterem deseruisse, mea brute postea te, ne per tacimates suavitate vituperatoribus.</p>
         </section>
       </article>
     </div>

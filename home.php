@@ -12,6 +12,7 @@
     </div>
     <div class="callout">
       <p>Read our documentation</p>
+      <a href="https://vaughansdev.tebex.io/category/2189424" class="button--primary">View on Tebex!</a>
       <a href="docs/index.php" class="button--primary">Documentation</a>
       <h3>All my scripts are in use on OntariosFinest, Join the server to use my scripts before they go on sale!</h3>
       <h4><a href="https://ontariosfinest.tk">Click Here to Check Out Ontarios Finest</a></h4>
