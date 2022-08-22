@@ -15,8 +15,10 @@
         <section class="js-section">
           <h3 class="section__title">Get Started</h3>
           <h4>Download</h4>
-            <p>VD-Drugs - <a href="https://keymaster.fivem.net/" target="_blank">https://keymaster.fivem.net</a> (login to the account you used to checkout on Tebex, Once logged in click on Granted Assets, Find VD-Drugs and click Download)<br />
-            bob74_ipl - <a href="https://github.com/qbcore-framework/bob74_ipl" target="_blank">https://github.com/qbcore-framework/bob74_ipl</a><br />
+            <p>VD-Drugs - <a href="https://keymaster.fivem.net/" target="_blank">https://keymaster.fivem.net</a> (login to the account you used to checkout on Tebex, Once logged in click on Granted Assets, Find VD-Drugs and click Download)</p>
+            <img height="248" width="820" src="../assets/imgs/docs/keymaster.png">
+            <img height="248" width="820" src="../assets/imgs/docs/granted-assets-vd-drugs.png">
+            <p>bob74_ipl - <a href="https://github.com/qbcore-framework/bob74_ipl" target="_blank">https://github.com/qbcore-framework/bob74_ipl</a><br />
             QB-Core - <a href="https://github.com/qbcore-framework/qb-core" target="_blank">https://github.com/qbcore-framework/qb-core</a><br />
             QB-Inventory - <a href="https://github.com/qbcore-framework/qb-inventory" target="_blank">https://github.com/qbcore-framework/qb-inventory</a></p>
         </section>
