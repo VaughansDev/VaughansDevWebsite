@@ -1,6 +1,5 @@
 <?php
   require 'inc/header.php';
-  require 'inc/nav.php';
 ?>
     <div class="hero">
       <h1 class="hero__title"><?php echo $site; ?></h1>

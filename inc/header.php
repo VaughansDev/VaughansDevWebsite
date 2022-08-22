@@ -16,3 +16,6 @@
       <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
   </head>
   <body>
+  <?php
+    require 'nav.php';
+?>

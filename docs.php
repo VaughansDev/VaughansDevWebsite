@@ -1,6 +1,5 @@
 <?php
   require 'inc/header.php';
-  require 'inc/nav.php';
 ?>
     <div class="wrapper">
       <aside class="doc__nav">
