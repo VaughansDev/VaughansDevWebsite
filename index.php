@@ -1,26 +1,7 @@
-<!doctype html>
-<html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>VaughansDev - a codding landing page template for codrops</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
-      <link rel="stylesheet" href="/assets/css/scribbler-global.css">
-      <link rel="stylesheet" href="/assets/css/scribbler-landing.css">
-      <link rel="author" href="humans.txt">
-  </head>
-  <body>
-    <nav>
-      <div class="logo"></div>
-      <ul class="menu">
-        <div class="menu__item toggle"><span></span></div>
-        <li class="menu__item"><a href="doc.php" class="link link--dark"><i class="fa fa-book"></i> Documentation</a></li>
-        <li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
-      </ul>
-    </nav>
+<?php
+  require 'header.php';
+  require 'nav.php';
+?>
     <div class="hero">
       <h1 class="hero__title">Scribbler</h1>
       <p class="hero__description">Take your markdown notes in terminal</p>
@@ -141,9 +122,6 @@
         </div>
       </div>
     </div>
-    <footer class="footer">Scribbler is a free HTML template created exclusively for <a href="https://tympanus.net/codrops/" target="_blank" class="link link--light">Codrops</a>.</footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/assets/js/scribbler.js"></script>
-  </body>
-</html>
+<?php
+  require 'footer.php';
+?>
