@@ -3,12 +3,11 @@
 ?>
     <div class="hero">
       <h1 class="hero__title"><?php echo $site; ?></h1>
-      <p class="hero__description">Take your markdown notes in terminal</p>
+      <p class="hero__description">FiveM Scripts & Addons for the QB-Core framework</p>
     </div>
     <div class="hero__terminal">
       <pre>
-        <!-- Place your demo code here -->
-        <code class="shell-session demo">hyperyolo ~ $ </code>
+        <code class="shell-session demo">VaughansDev ~ $ </code>
       </pre>
     </div>
     <div class="wrapper">

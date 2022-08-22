@@ -1,13 +1,12 @@
 <?php
-  require 'inc/header.php';
+  require '../inc/header.php';
 ?>
     <div class="wrapper">
       <aside class="doc__nav">
         <ul>
-          <li class="js-btn selected">Get Started</li>
-          <li class="js-btn">Configuration</li>
-          <li class="js-btn">Keybindings</li>
-          <li class="js-btn">Issues</li>
+          <a href="index.php"><li class="selected">Get Started</li></a>
+          <a href="setup.php"><li class="">Setup</li></a>
+          <a href="vd-drugs.php"><li class="">VD-Drugs</li></a>
         </ul>
       </aside>
       <article class="doc__content">
@@ -73,5 +72,5 @@
       </article>
     </div>
 <?php
-  require 'inc/footer.php';
+  require '../inc/footer.php';
 ?>

@@ -12,8 +12,25 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <script src="https://kit.fontawesome.com/cef1fcc158.js" crossorigin="anonymous"></script>
+
       <link rel="stylesheet" href="../assets/css/scribbler-global.css">
-      <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
+      <?php
+      switch ($_SERVER['PHP_SELF']) {
+        case "/index.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-landing.css">
+          <?php break;
+        case "/docs/index.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
+          <?php break;
+        case "/docs/setup.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
+          <?php break;
+        case "/docs/vd-drugs.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
+          <?php break;
+      }
+      ?>
   </head>
   <body>
   <?php
