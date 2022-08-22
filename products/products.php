@@ -12,27 +12,33 @@
     </div>
     <div class="wrapper">
       <div class="feature">
-        <div class="feature__item2">
+        <div class="feature__item3">
           <a href="vd-drugs.php">
-            <h3 class="section__title2">VD-Drugs [QB]</h3>
+            <h3 class="section__title3">VD-Drugs [QB]</h3>
             <p>This script adds <span class="code code--inline">meth cooking</span>, <span class="code code--inline">cocaine processing</span>, <span class="code code--inline">weed growing</span> & <span class="code code--inline">money counterfeiting</span> to <span class="code code--inline">QB-Core</span>. <span class="code code--inline">bob74_ipl</span> is required for this script. </p>
           </a>
         </div>
-        <div class="feature__item2">
+        <div class="feature__item3">
           <a href="#"><!-- vd-tequilalajob.php -->
-            <h3 class="section__title2">*WIP* VD-TequilalaJob [QB] (Coming Soon)</h3>
+            <h3 class="section__title3">*WIP* VD-BarJob [QB] (Coming Soon)</h3>
             <p>This script adds animations and interactions to simulate tasks you would perform while working these jobs. More information will be provided after they launch.</p>
           </a>
         </div>
-        <div class="feature__item2">
+        <div class="feature__item3">
           <a href="#"><!-- vd-coffeeshopjob.php -->
-            <h3 class="section__title2">*WIP* VD-CoffeeShopJob [QB] (Coming Soon)</h3>
+            <h3 class="section__title3">*WIP* VD-CoffeeShopJob [QB] (Coming Soon)</h3>
             <p>This script adds animations and interactions to simulate tasks you would perform while working these jobs. More information will be provided after they launch.</p>
           </a>
         </div>
-        <div class="feature__item2">
+        <div class="feature__item3">
           <a href="#"><!-- vd-lalinternas.php -->
-            <h3 class="section__title2">*WIP* VD-LaLinternas [QB] (Coming Soon)</h3>
+            <h3 class="section__title3">*WIP* VD-RestaurantJob [QB] (Coming Soon)</h3>
+            <p>This script adds animations and interactions to simulate tasks you would perform while working these jobs. More information will be provided after they launch.</p>
+          </a>
+        </div>
+        <div class="feature__item3">
+          <a href="#"><!-- vd-lalinternas.php -->
+            <h3 class="section__title3">*WIP* VD-FastFoodJob [QB] (Coming Soon)</h3>
             <p>This script adds animations and interactions to simulate tasks you would perform while working these jobs. More information will be provided after they launch.</p>
           </a>
         </div>

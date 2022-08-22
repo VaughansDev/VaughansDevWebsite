@@ -26,13 +26,16 @@
         case "/docs/vd-drugs.php":?>
           <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
           <?php break;
-        case "/docs/vd-tequilalajob.php":?>
+        case "/docs/vd-barjob.php":?>
           <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
           <?php break;
         case "/docs/vd-coffeeshopjob.php":?>
           <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
           <?php break;
-        case "/docs/vd-lalinternas.php":?>
+        case "/docs/vd-restaurantjob.php":?>
+          <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
+          <?php break;
+        case "/docs/vd-fastfoodjob.php":?>
           <link rel="stylesheet" href="../assets/css/scribbler-doc.css">
           <?php break;
         case "/products/products.php":?>

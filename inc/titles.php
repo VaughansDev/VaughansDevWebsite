@@ -9,20 +9,35 @@ switch ($_SERVER['PHP_SELF']) {
   case "/docs/vd-drugs.php":
     $page = 'Docs | VD-Drugs';
     break;
-  case "/docs/vd-tequilalajob.php":
-    $page = 'Docs | VD-Drugs';
+  case "/docs/vd-BarJob.php":
+    $page = 'Docs | VD-BarJob';
     break;
   case "/docs/vd-coffeeshopjob.php":
-    $page = 'Docs | VD-Drugs';
+    $page = 'Docs | VD-CoffeeShopJob';
     break;
-  case "/docs/vd-lalinternas.php":
-    $page = 'Docs | VD-Drugs';
+  case "/docs/vd-restaurantjob.php":
+    $page = 'Docs | VD-RestaurantJob';
+    break;
+  case "/docs/vd-fastfoodjob.php":
+    $page = 'Docs | VD-FastFoodJob';
     break;
   case "/products/products.php":
     $page = 'Products | Our Products';
     break;
   case "/products/vd-drugs.php":
     $page = 'Products | VD-Drugs';
+    break;
+  case "/products/vd-BarJob.php":
+    $page = 'Products | VD-BarJob';
+    break;
+  case "/products/vd-coffeeshopjob.php":
+    $page = 'Products | VD-CoffeeShopJob';
+    break;
+  case "/products/vd-restaurantjob.php":
+    $page = 'Products | VD-RestaurantJob';
+    break;
+  case "/products/vd-fastfoodjob.php":
+    $page = 'Products | VD-FastFoodJob';
     break;
 }
 

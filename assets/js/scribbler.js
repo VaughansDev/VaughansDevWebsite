@@ -16,9 +16,10 @@ if (document.getElementsByClassName('home').length > 0) {
 
           Products:
             - VD-Drugs [QB] ~ $25 USD
-            - *WIP* VD-TequilalaJob [QB] (Coming Soon)
+            - *WIP* VD-BarJob [QB] (Coming Soon)
             - *WIP* VD-CoffeeShopJob [QB] (Coming Soon)
-            - *WIP* VD-LaLinternas [QB] (Coming Soon)`;
+            - *WIP* VD-RestaurantJob [QB] (Coming Soon)
+            - *WIP* VD-FastFoodJob [QB] (Coming Soon)`;
   var speed = 10;
 
   function typeItOut () {

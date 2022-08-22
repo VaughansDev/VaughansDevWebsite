@@ -6,9 +6,9 @@
         <ul>
           <a href="index.php"><li class="">Get Started</li></a>
           <a href="vd-drugs.php"><li class="">VD-Drugs</li></a>
-          <a href="vd-barjob.php"><li class="">VD-BarJob</li></a>
-          <a href="vd-coffeeshopjob.php"><li class="selected">VD-CoffeeShopJob</li></a>
-          <a href="vd-restaurantjob.php"><li class="">VD-RestaurantJob</li></a>
+          <a href="vd-barjob.php"><li class="selected">VD-BarJob</li></a>
+          <a href="vd-coffeeshopjob.php"><li class="">VD-CoffeeShopJob</li></a>
+          <a href="vd-lalinternas.php"><li class="">VD-LaLinternas</li></a>
           <a href="vd-fastfoodjob.php"><li class="">VD-FastFoodJob</li></a>
         </ul>
       </aside>
